@@ -15,5 +15,7 @@ class City extends Country with Problem{
     return "Lion King";
   }
 
+
+   String clock()=> "12:00";
   
 }

@@ -19,5 +19,6 @@ void main(){
   print(order.callAnimal());
 
   order.callProblem();
+  print(order.clock());
 
 }
