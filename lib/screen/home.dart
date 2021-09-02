@@ -59,7 +59,10 @@ class HOME extends StatelessWidget {
                     
                     shape: StadiumBorder(),
                   ),child: const Text("Login"),
-                  onPressed:(){ print("Click me");}
+                  onPressed:(){ 
+                    print("Login");
+                    Navigator.pushNamed(context, 'Login');
+                    },
                 ),
 
                 SizedBox( height: 25,
@@ -75,7 +78,10 @@ class HOME extends StatelessWidget {
                     padding:  EdgeInsets.fromLTRB(110, 20, 110, 20),
                     shape: StadiumBorder(),
                   ),child: const Text("SIGN UP"),
-                  onPressed:(){ print("Click me");}
+                  onPressed:(){
+                    print("Click me");
+                    Navigator.pushNamed(context, 'Registor');   
+                  }
                 ),
                 
               ],
