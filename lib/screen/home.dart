@@ -80,7 +80,7 @@ class HOME extends StatelessWidget {
                   ),child: const Text("SIGN UP"),
                   onPressed:(){
                     print("Click me");
-                    Navigator.pushNamed(context, 'Registor');   
+                    Navigator.pushNamed(context, 'Register');   
                   }
                 ),
                 
